@@ -68,13 +68,13 @@ In R, object names are one of the most fundamental tools for writing readable, m
 
 * Be descriptive: Use names that clearly describe what the object represents. For example, use <code>total_income</code> instead of <code>x</code> or <code>ti</code>.
 
-* '''Use lowercase letters:''' Stick to lowercase letters and use underscores (_) to separate words. This style is consistent with tidyverse conventions and improves readability (household_id, not HouseholdID or houseHoldId).
+* Use lowercase letters: Stick to lowercase letters and use underscores (_) to separate words. This style is consistent with tidyverse conventions and improves readability (household_id, not HouseholdID or houseHoldId).
 
-* '''Avoid abbreviations:''' Unless widely recognized (e.g., GDP, ID, ISO), avoid abbreviations that may not be clear to others.
+* Avoid abbreviations: Unless widely recognized (e.g., GDP, ID, ISO), avoid abbreviations that may not be clear to others.
 
-* '''Don't overwrite base functions:''' Avoid naming objects data, mean, sum, T, c, etc., which are already used by R and can lead to hard-to-spot bugs.
+* Don't overwrite base functions: Avoid naming objects data, mean, sum, T, c, etc., which are already used by R and can lead to hard-to-spot bugs.
 
-* '''Consistency is key:''' Pick a style and stick with it throughout your project (e.g., always use snake_case or always use dot.case, but don’t mix them).
+* Consistency is key: Pick a style and stick with it throughout your project (e.g., always use snake_case or always use dot.case, but don’t mix them).
 
 #### For Example;
 
@@ -84,7 +84,7 @@ In R, object names are one of the most fundamental tools for writing readable, m
 * <code>beneficiary_status</code>: Clear and readable
 
 ## Style and white space
-Following consistent style and white space conventions in R code improves readability, helps with debugging, and facilitates collaboration across teams. At DIME, we recommend adhering to the [https://style.tidyverse.org/ Tidyverse style guide] with some team-specific adjustments. Below are key points to follow:
+Following consistent style and white space conventions in R code improves readability, helps with debugging, and facilitates collaboration across teams. At DIME, we recommend adhering to the [Tidyverse style guide](https://style.tidyverse.org/) with some team-specific adjustments. Below are key points to follow:
 
 ### 1. Indentation:
 * Use two spaces for indentation, not tabs.
