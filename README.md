@@ -43,21 +43,25 @@ Running code that returns the right result is only the first half of the job. Th
  # Outputs: data/clean/baseline_clean.rds
  ##################################################
 ```
+
 '''2. Use section headers to structure code within each script'''
- ```# Load packages -------------------------------------------------------
+
+ ```R
+ # Load packages -------------------------------------------------------
 
  # Import data ---------------------------------------------------------
 
  # Clean variables -----------------------------------------------------
 
- # Save outputs --------------------------------------------------------```
+ # Save outputs --------------------------------------------------------
+```
 
 '''Good syntax''' makes it easy to understand what the code is doing and why. You should:
 *Use clear, expressive names for variables and objects (e.g., baseline_data instead of bd).
 *Avoid deeply nested code and one-liners that sacrifice clarity.
 *Write logic in small chunks—long chains of operations should be broken down or commented carefully.
 
-==Naming objects==
+## Naming objects
 In R, object names are one of the most fundamental tools for writing readable, maintainable, and collaborative code. This includes variable names, function names, data frame names, and any other user-defined object. Good naming helps future users (and your future self) quickly understand what your code is doing without constantly referring back to earlier lines.
 
 '''General Principles'''
@@ -81,7 +85,7 @@ In R, object names are one of the most fundamental tools for writing readable, m
 
 *<code>beneficiary_status</code>: Clear and readable
 
-==Style and white space==
+## Style and white space
 Following consistent style and white space conventions in R code improves readability, helps with debugging, and facilitates collaboration across teams. At DIME, we recommend adhering to the [https://style.tidyverse.org/ Tidyverse style guide] with some team-specific adjustments. Below are key points to follow:
 
 '''1. Indentation:'''
@@ -108,14 +112,14 @@ Following consistent style and white space conventions in R code improves readab
 *No space before a comma; one space after a comma: <code>c(1, 2, 3)</code>.
 *No space inside parentheses or square brackets: <code>mean(x)</code>, not <code>mean( x )</code>.
 
-==Loops in R==
+## Loops in R
 
 
-==Tidyverse==
+## Tidyverse
 
-==Version control==
+## Version control
 
-==RStudio projects==
+## RStudio projects
 
 == Additional Resources ==
 * [https://www.r-bloggers.com/r-code-best-practices/| R-bloggers post on best practices]
