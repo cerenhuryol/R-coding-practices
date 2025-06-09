@@ -32,7 +32,7 @@ To load the packages installed:
 Running code that returns the right result is only the first half of the job. The other half is making sure your code is easy to follow, test, and reuse. This helps teams catch mistakes, audit decisions, and collaborate more effectively. Poorly structured code increases the risk of errors.
 
 
-'''1. Use header comments to introduce each script:'''
+#### 1. Use header comments to introduce each script:
  ```R
  ##################################################
  # Script: 01_clean_data.R
@@ -44,7 +44,7 @@ Running code that returns the right result is only the first half of the job. Th
  ##################################################
 ```
 
-'''2. Use section headers to structure code within each script'''
+#### 2. Use section headers to structure code within each script
 
  ```R
  # Load packages -------------------------------------------------------
@@ -64,9 +64,9 @@ Running code that returns the right result is only the first half of the job. Th
 ## Naming objects
 In R, object names are one of the most fundamental tools for writing readable, maintainable, and collaborative code. This includes variable names, function names, data frame names, and any other user-defined object. Good naming helps future users (and your future self) quickly understand what your code is doing without constantly referring back to earlier lines.
 
-'''General Principles'''
+### General Principles
 
-*'''Be descriptive:''' Use names that clearly describe what the object represents. For example, use <code>total_income</code> instead of <code>x</code> or <code>ti</code>.
+*Be descriptive: Use names that clearly describe what the object represents. For example, use <code>total_income</code> instead of <code>x</code> or <code>ti</code>.
 
 *'''Use lowercase letters:''' Stick to lowercase letters and use underscores (_) to separate words. This style is consistent with tidyverse conventions and improves readability (household_id, not HouseholdID or houseHoldId).
 
@@ -76,7 +76,7 @@ In R, object names are one of the most fundamental tools for writing readable, m
 
 *'''Consistency is key:''' Pick a style and stick with it throughout your project (e.g., always use snake_case or always use dot.case, but don’t mix them).
 
-'''For Example;'''
+#### For Example;
 *<code>survey_data_2023</code>: Descriptive and specific
 
 *<code>income_total</code>: Meaningful variable name 
@@ -88,7 +88,7 @@ In R, object names are one of the most fundamental tools for writing readable, m
 ## Style and white space
 Following consistent style and white space conventions in R code improves readability, helps with debugging, and facilitates collaboration across teams. At DIME, we recommend adhering to the [https://style.tidyverse.org/ Tidyverse style guide] with some team-specific adjustments. Below are key points to follow:
 
-'''1. Indentation:'''
+### 1. Indentation:
 *Use two spaces for indentation, not tabs.
 *Nested structures (like if, for, or pipes) should be indented to reflect logical structure.
 
@@ -96,7 +96,7 @@ Following consistent style and white space conventions in R code improves readab
   do_something()
 }</code>
 
-'''2. Line Length'''
+### 2. Line Length
 
 *Keep lines under 80 characters when possible.
 *Break long lines logically, especially for pipes, put each step on a new line and indent.
@@ -106,7 +106,7 @@ Following consistent style and white space conventions in R code improves readab
    group_by(id) %>%
    summarise(mean_val = mean(value))</code>
 
-'''3. Spaces:'''
+### 3. Spaces:
 
 *Add spaces around operators: <code>x <- 1</code>, not <code>x<-1</code>.
 *No space before a comma; one space after a comma: <code>c(1, 2, 3)</code>.
@@ -121,7 +121,7 @@ Following consistent style and white space conventions in R code improves readab
 
 ## RStudio projects
 
-== Additional Resources ==
+### Additional Resources
 * [https://www.r-bloggers.com/r-code-best-practices/| R-bloggers post on best practices]
 * DIME Analytics, World Bank [https://github.com/dime-wb-trainings/shiny-training?tab=readme-ov-file/ shiny training]
 * Tidyverse Team, [https://style.tidyverse.org/ Tidyverse style guide]
