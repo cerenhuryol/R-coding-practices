@@ -113,8 +113,6 @@ if (condition) {
 * No space before a comma; one space after a comma: <code>c(1, 2, 3)</code>.
 * No space inside parentheses or square brackets: <code>mean(x)</code>, not <code>mean( x )</code>.
 
-## File Paths 
-
 
 ## Loops in R
 
@@ -124,6 +122,9 @@ if (condition) {
 ## Version control
 
 ## RStudio projects
+
+To set working directories on R, <code>setwd</code> is the direct equivalent of <code>cd</code> on Stata. However, we don't recommend using this. 
+Instead, you should use RStudio projects and <code>here</code> command. 
 
 ### Additional Resources
 * [R-bloggers post on best practices](https://www.r-bloggers.com/r-code-best-practices/)
