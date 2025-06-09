@@ -84,7 +84,7 @@ In R, object names are one of the most fundamental tools for writing readable, m
 * <code>beneficiary_status</code>: Clear and readable
 
 ## Style and white space
-Following consistent style and white space conventions in R code improves readability, helps with debugging, and facilitates collaboration across teams. At DIME, we recommend adhering to the [Tidyverse style guide](https://style.tidyverse.org/) with some team-specific adjustments. Below are key points to follow:
+Following consistent style and white space conventions in R code improves readability, helps with debugging, and facilitates collaboration across teams. At DIME, we recommend adhering to the [tidyverse style guide](https://style.tidyverse.org/) with some team-specific adjustments. Below are key points to follow:
 
 ### 1. Indentation:
 * Use two spaces for indentation, not tabs.
@@ -123,11 +123,11 @@ if (condition) {
 ## RStudio projects
 
 ### Additional Resources
-* [https://www.r-bloggers.com/r-code-best-practices/| R-bloggers post on best practices]
-* DIME Analytics, World Bank [https://github.com/dime-wb-trainings/shiny-training?tab=readme-ov-file/ shiny training]
-* Tidyverse Team, [https://style.tidyverse.org/ Tidyverse style guide]
+* [R-bloggers post on best practices](https://www.r-bloggers.com/r-code-best-practices/)
+* DIME Analytics, World Bank [R shiny training](https://github.com/dime-wb-trainings/shiny-training?tab=readme-ov-file/)
+* Tidyverse Team, [Tidyverse style guide](https://style.tidyverse.org/ Tidyverse)
 
 ==Related DIME Analytics Trainings==
-* Training session recording on [https://osf.io/8sgrh/files/osfstorage/68387ddec1e467f319a4db5a/ Introduction to R Shiny]
-* Training session recording on [https://osf.io/8sgrh/files/osfstorage/65ac8ac0b1f2b501d5b0ef7d/ Big data workflows with R <code>data.table</code>]
+* Training session recording on [Introduction to R Shiny](https://osf.io/8sgrh/files/osfstorage/68387ddec1e467f319a4db5a/)
+* Training session recording on [Big data workflows with R <code>data.table</code>](https://osf.io/8sgrh/files/osfstorage/65ac8ac0b1f2b501d5b0ef7d/)
 [[Category: Coding Practices]]
