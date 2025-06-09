@@ -125,9 +125,10 @@ if (condition) {
 ### Additional Resources
 * [R-bloggers post on best practices](https://www.r-bloggers.com/r-code-best-practices/)
 * DIME Analytics, World Bank [R shiny training](https://github.com/dime-wb-trainings/shiny-training?tab=readme-ov-file/)
-* Tidyverse Team, [Tidyverse style guide](https://style.tidyverse.org/ Tidyverse)
+* Tidyverse Team, [Tidyverse style guide](https://style.tidyverse.org/)
 
 ==Related DIME Analytics Trainings==
 * Training session recording on [Introduction to R Shiny](https://osf.io/8sgrh/files/osfstorage/68387ddec1e467f319a4db5a/)
 * Training session recording on [Big data workflows with R <code>data.table</code>](https://osf.io/8sgrh/files/osfstorage/65ac8ac0b1f2b501d5b0ef7d/)
+  
 [[Category: Coding Practices]]
