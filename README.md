@@ -4,15 +4,15 @@ Creating R page for DIME Wiki
 This article lays out some best practices for coding using R. Though it is possible to use R without it, the RStudio integrated development environment makes its use easier and is the standard among R users. There is not a single set of best practices and the guidelines below are suggestions that can and should be adapted the each project's needs, as well as users' preferences
 </onlyinclude>
 
-== Read First ==
+## Read First
 * RStudio
 * Comments
 * Objects names
 
-==Package installation==
+## Package installation
 R packages are collections of functions, data, and documentation that extend the functionality of base R. They are essential for everything from data cleaning to statistical modeling and visualization.
 
-==Installing CRAN Packages==
+## Installing CRAN Packages
 
 CRAN (The Comprehensive R Archive Network) is the primary repository for R packages.
 
@@ -28,28 +28,29 @@ To load the packages installed:
 
  <code>library(tidyverse)</code>
 
-==Comments and script structure==
+## Comments and script structure
 Running code that returns the right result is only the first half of the job. The other half is making sure your code is easy to follow, test, and reuse. This helps teams catch mistakes, audit decisions, and collaborate more effectively. Poorly structured code increases the risk of errors.
 
 
 '''1. Use header comments to introduce each script:'''
- <code>##################################################
+ ```R
+ ##################################################
  # Script: 01_clean_data.R
  # Purpose: Clean raw baseline data
  # Author: First Last
  # Date: 2025-05-30
  # Inputs: data/raw/baseline.csv
  # Outputs: data/clean/baseline_clean.rds
- ##################################################</code>
-
+ ##################################################
+```
 '''2. Use section headers to structure code within each script'''
- <code># Load packages -------------------------------------------------------
+ ```# Load packages -------------------------------------------------------
 
  # Import data ---------------------------------------------------------
 
  # Clean variables -----------------------------------------------------
 
- # Save outputs --------------------------------------------------------</code>
+ # Save outputs --------------------------------------------------------```
 
 '''Good syntax''' makes it easy to understand what the code is doing and why. You should:
 *Use clear, expressive names for variables and objects (e.g., baseline_data instead of bd).
