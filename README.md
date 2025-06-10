@@ -103,8 +103,8 @@ if (condition) {
 ```R
  data %>%
    filter(x > 0) %>%
-   group_by(id) %>%
-   summarise(mean_val = mean(value))</code>
+  group_by(id) %>%
+   summarise(mean_val = mean(value))
 ```
 
 ### 3. Spaces:
@@ -116,6 +116,14 @@ if (condition) {
 
 ## Loops in R
 
+In Stata, we use <code>for</code> loops very frequently. In R, the syntax of <code>for</code> loop is this:
+
+```R
+for (number in 1:3) {
+        print(number)
+}
+```
+While R supports traditional loops like <code>for</code>, <code>while</code>, and <code>repeat</code>, since R is vectorized, you can avoid explicit loops in most cases and use vectorized functions or functional programming tools like <ode>purrr::map()</code> or <code>lapply()</code> instead. These approaches are usually more concise, readable, and efficient.
 
 ## Tidyverse
 
@@ -124,7 +132,9 @@ if (condition) {
 ## RStudio projects
 
 To set working directories on R, <code>setwd</code> is the direct equivalent of <code>cd</code> on Stata. However, we don't recommend using this. 
-Instead, you should use RStudio projects and <code>here</code> command. 
+Instead, you should use RStudio projects and <code>here</code> library. <code>here</code> locates files relative to your project root. 
+It uses the root project directory to build paths to files easily and allows for interoperability between different computers where the absolute path to the same file is not the same.  
+
 
 ### Additional Resources
 * [R-bloggers post on best practices](https://www.r-bloggers.com/r-code-best-practices/)
