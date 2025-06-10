@@ -152,6 +152,13 @@ map(X, function, ...) #Applies function to each of elements of X. If X is a data
 
 ## Tidyverse
 
+Tidyverse includes very useful packages that you will need frequently in your analysis. The functions include data transformation, tidying, filtering data and many more. 
+
+To install all the packages in Tidyverse:
+```R
+install.packages("tidyverse")
+```
+
 ## Version control
 
 ## RStudio projects
