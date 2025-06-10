@@ -1,5 +1,6 @@
 # R-coding-practices
 Creating R page for DIME Wiki
+
 <onlyinclude>
 This article lays out some best practices for coding using R. Though it is possible to use R without it, the RStudio integrated development environment makes its use easier and is the standard among R users. There is not a single set of best practices and the guidelines below are suggestions that can and should be adapted the each project's needs, as well as users' preferences
 </onlyinclude>
@@ -114,7 +115,7 @@ if (condition) {
 * No space inside parentheses or square brackets: <code>mean(x)</code>, not <code>mean( x )</code>.
 
 ## Functions and Piping
-In R, you can define one function inside another, a concept related to metaprogramming. However, nesting multiple functions can become complex and error-prone. Using pipes helps break down operations into readable steps, improving both clarity and maintainability. The actual meaning of the pipes is: Pipes take the output of the function at the left and pass it as the first argument of the function at the right. For example:
+In R, you can define one function inside another, a concept related to metaprogramming. However, nesting multiple functions can become complex and error-prone. Using pipes helps break down operations into readable steps, improving both clarity and maintainability. Pipes take the output of the function at the left and pass it as the first argument of the function at the right. For example:
 
 ```R
   df$income_total %>% 
