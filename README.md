@@ -58,8 +58,11 @@ Running code that returns the right result is only the first half of the job. Th
 ```
 
 '''Good syntax''' makes it easy to understand what the code is doing and why. You should:
+
 *Use clear, expressive names for variables and objects (e.g., baseline_data instead of bd).
+
 *Avoid deeply nested code and one-liners that sacrifice clarity.
+
 *Write logic in small chunks—long chains of operations should be broken down or commented carefully.
 
 ## Naming objects
