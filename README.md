@@ -92,7 +92,6 @@ Following consistent style and white space conventions in R code improves readab
 
 ### 1. Indentation:
 * Use two spaces for indentation, not tabs.
-  
 * Nested structures (like if, for, or pipes) should be indented to reflect logical structure.
 ```R
 if (condition) {
@@ -158,7 +157,20 @@ To install all the packages in Tidyverse:
 ```R
 install.packages("tidyverse")
 ```
+When you load the <code>tidyverse</code>, you’re loading these core packages:
 
+| Package   | Use                                         |
+| --------- | ------------------------------------------- |
+| `ggplot2` | Data visualization                          |
+| `dplyr`   | Data manipulation (filter, mutate, etc.)    |
+| `tidyr`   | Data reshaping (pivoting, nesting)          |
+| `readr`   | Reading CSVs and flat files efficiently     |
+| `tibble`  | Tidyverse's version of `data.frame`         |
+| `purrr`   | Functional programming (e.g. map functions) |
+| `stringr` | String manipulation                         |
+| `forcats` | Working with categorical/factor variables   |
+
+You can find more information on each package [here](https://www.tidyverse.org/)
 ## Version control
 
 ## RStudio projects
