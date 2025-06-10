@@ -103,7 +103,7 @@ if (condition) {
 ```R
  data %>%
    filter(x > 0) %>%
-  group_by(id) %>%
+   group_by(id) %>%
    summarise(mean_val = mean(value))
 ```
 
@@ -113,6 +113,17 @@ if (condition) {
 * No space before a comma; one space after a comma: <code>c(1, 2, 3)</code>.
 * No space inside parentheses or square brackets: <code>mean(x)</code>, not <code>mean( x )</code>.
 
+## Functions and Piping
+In R, you can define one function inside another, a concept related to metaprogramming. However, nesting multiple functions can become complex and error-prone. Using pipes helps break down operations into readable steps, improving both clarity and maintainability. The actual meaning of the pipes is: Pipes take the output of the function at the left and pass it as the first argument of the function at the right. For example:
+
+```R
+  df$income_total %>% 
+  log() %>% 
+  mean()
+```
+Note that;
+<code>x %>% f()</code> is the same as <code>f(x)</code> 
+<code>x %>% f() %>% g()</code> is the same as <code>g(f(x))</code>
 
 ## Loops in R
 
@@ -123,7 +134,16 @@ for (number in 1:3) {
         print(number)
 }
 ```
-While R supports traditional loops like <code>for</code>, <code>while</code>, and <code>repeat</code>, since R is vectorized, you can avoid explicit loops in most cases and use vectorized functions or functional programming tools like <ode>purrr::map()</code> or <code>lapply()</code> instead. These approaches are usually more concise, readable, and efficient.
+While R supports traditional loops like <code>for</code>, <code>while</code>, and <code>repeat</code>, since R is vectorized, you can avoid explicit loops in most cases and use vectorized functions or functional programming tools like <code>purrr::map()</code> or <code>lapply()</code> instead. These approaches are usually more concise, readable, and efficient.
+
+### Installation 
+To use <code>map</code> you need to load the package <code>purrr</code>. 
+The syntax for <code>map()</code> is:
+
+```R
+map(X, function, ...) #Applies function to each of elements of X. If X is a data frame then function is applied column-wise, while if it's a vector or a list, it is applied item wise. The output of <code>map</code> is always a list. 
+```
+
 
 ## Tidyverse
 
