@@ -177,13 +177,13 @@ Cleaning and tidying data is a crucial step before starting your analysis. R has
 
 * <code>clean_names()</code> function from <code>Janitor</code> package helps us to fix messy variable names. 
 * <code>View()</code> to open the dataset.
-* <code>class</code> reports object type of type of data stored.
-* <code>dim</code> reports the size of each one of an object's dimension.
+* <code>class()</code> reports object type of type of data stored.
+* <code>dim()</code> reports the size of each one of an object's dimension.
 * <code>names()</code> returns the names of variables in a dataset.
 * <code>str()</code> general information on a R object.
-* <code>summary</code> summary information about the variables in data frame.
+* <code>summary()</code> summary information about the variables in data frame.
 * <code>head()</code> shows the first few observations in a dataset.
-* <code>tail</code> shows the last few observations in a dataset.
+* <code>tail()</code> shows the last few observations in a dataset.
   
 ## Version control
 
