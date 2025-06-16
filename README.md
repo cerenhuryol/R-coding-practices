@@ -173,6 +173,20 @@ When you load the <code>tidyverse</code>, you’re loading these core packages:
 You can find more information on each package [here](https://www.tidyverse.org/)
 ## Version control
 
+Version control is essential for collaborative and reproducible research in R. It allows researchers to track changes to scripts, collaborate effectively across teams, and maintain a clear history of edits over time.
+
+### Recommended Tools:
+
+* Git: The most widely used version control system. It tracks changes in R scripts, RMarkdown files, and data analysis projects.
+
+* GitHub / GitLab / Bitbucket: Platforms for hosting Git repositories. These tools facilitate collaboration, code review, and project management.
+  
+### Integration with R:
+
+RStudio has built-in Git support, allowing users to commit changes, push/pull from repositories, and view change history directly within the RStudio interface.
+
+To enable Git in RStudio, install Git on your computer and configure Git with your user name and email. Link your RStudio project to a Git repository (via "New Project" > "Version Control" or by initializing Git in an existing project).
+
 ## RStudio projects
 
 To set working directories on R, <code>setwd</code> is the direct equivalent of <code>cd</code> on Stata. However, we don't recommend using this. 
