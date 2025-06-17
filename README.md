@@ -214,7 +214,15 @@ It uses the root project directory to build paths to files easily and allows for
 * Tidyverse Team, [Tidyverse style guide](https://style.tidyverse.org/)
 
 ### Related DIME Analytics Training
+* R for data analysis series, [Intro to R](https://osf.io/f7rk8)
+* R for data analysis series, [Intro to R Programming](https://osf.io/cw4d7)
+* R for data analysis series, [Data Wrangling](https://osf.io/he9uc)
+* R for data analysis series, [Data Visualization](https://osf.io/hcqje)
+* R for data analysis series, [Descriptive Analysis](https://osf.io/3c2x8)
+* R for data analysis series, [Spatial Data](https://osf.io/cx5em)
+* R for data analysis series, [R Markdown](https://osf.io/sdhyj)
 * Training session recording on [Introduction to R Shiny](https://osf.io/8sgrh/files/osfstorage/68387ddec1e467f319a4db5a/)
 * Training session recording on [Big data workflows with R <code>data.table</code>](https://osf.io/8sgrh/files/osfstorage/65ac8ac0b1f2b501d5b0ef7d/)
+
   
 [[Category: Coding Practices]]
