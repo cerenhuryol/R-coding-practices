@@ -224,5 +224,5 @@ It uses the root project directory to build paths to files easily and allows for
 * Training session recording on [Introduction to R Shiny](https://osf.io/8sgrh/files/osfstorage/68387ddec1e467f319a4db5a/)
 * Training session recording on [Big data workflows with R <code>data.table</code>](https://osf.io/8sgrh/files/osfstorage/65ac8ac0b1f2b501d5b0ef7d/)
 
-  
+
 [[Category: Coding Practices]]
