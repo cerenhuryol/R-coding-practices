@@ -208,12 +208,12 @@ Instead, you should use RStudio projects and <code>here</code> library. <code>he
 It uses the root project directory to build paths to files easily and allows for interoperability between different computers where the absolute path to the same file is not the same.  
 
 
-### Additional Resources
+## Additional Resources
 * [R-bloggers post on best practices](https://www.r-bloggers.com/r-code-best-practices/)
 * DIME Analytics, World Bank [R shiny training](https://github.com/dime-wb-trainings/shiny-training?tab=readme-ov-file/)
 * Tidyverse Team, [Tidyverse style guide](https://style.tidyverse.org/)
 
-### Related DIME Analytics Training
+## Related DIME Analytics Training
 * R for data analysis series, [Intro to R](https://osf.io/f7rk8)
 * R for data analysis series, [Intro to R Programming](https://osf.io/cw4d7)
 * R for data analysis series, [Data Wrangling](https://osf.io/he9uc)
@@ -223,6 +223,8 @@ It uses the root project directory to build paths to files easily and allows for
 * R for data analysis series, [R Markdown](https://osf.io/sdhyj)
 * Training session recording on [Introduction to R Shiny](https://osf.io/8sgrh/files/osfstorage/68387ddec1e467f319a4db5a/)
 * Training session recording on [Big data workflows with R <code>data.table</code>](https://osf.io/8sgrh/files/osfstorage/65ac8ac0b1f2b501d5b0ef7d/)
+* Training presentation on [GitHub Workflow](https://osf.io/8sgrh/files/osfstorage/5fcaa140aa60b802588953ae)
+* Training presentation on [GitHub PR](https://osf.io/8sgrh/files/osfstorage/61b20a9ac7d9fb0f38eb46d4)
 
 
 [[Category: Coding Practices]]
