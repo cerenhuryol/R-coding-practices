@@ -225,6 +225,7 @@ It uses the root project directory to build paths to files easily and allows for
 * Training session recording on [Big data workflows with R <code>data.table</code>](https://osf.io/8sgrh/files/osfstorage/65ac8ac0b1f2b501d5b0ef7d/)
 * Training presentation on [GitHub Workflow](https://osf.io/8sgrh/files/osfstorage/5fcaa140aa60b802588953ae)
 * Training presentation on [GitHub PR](https://osf.io/8sgrh/files/osfstorage/61b20a9ac7d9fb0f38eb46d4)
+* Session recording on [Stata integrations with R and Python](https://osf.io/m63t5)
 
 
 [[Category: Coding Practices]]
